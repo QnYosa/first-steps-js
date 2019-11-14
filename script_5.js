@@ -12,4 +12,13 @@ const books = [
     { title: 'Voyage au centre de la Terre', id: 4656388, rented: 38 },
     { title: 'Guerre et Paix', id: 748147, rented: 19 }
   ];
+/*
+  const result = books.filter(book => book.rented > 0);
+  console.log(result)
+  console.log(result.length)
+  if(result.length === books.length) {
+    console.log("Tous les livres ont été loués au moins une fois");
+  }
+*/
 
+ console.log(Math.max(books.rented));
